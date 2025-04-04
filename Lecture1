@@ -1,0 +1,13 @@
+//swapping two numbers 
+import java.util.*;
+public class main{
+  public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in);
+    int a = 10 , b = 12 ;
+        System.out.println("before swapping the number of :"+a+ "," +b);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.println("After swapping the number of :"+a+ "," +b);
+  }
+}
